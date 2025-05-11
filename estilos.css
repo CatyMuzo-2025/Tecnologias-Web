@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+    color: #333;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid #cccccce3;
+    padding: 10px;
+    text-align: left;
+}
+
+h1,h2{
+    color:#ff00b3be;
+}
+
+.tabla th {
+    background-color: #ac9aaca4;
+    text-align: center;
+}
+
+.productos th, .productos td {
+    text-align: center;
+}
+
+.productos .total {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+.info-adicional td {
+    background-color: #f1f1f1;
+}
+
+.pie td {
+    text-align: center;
+    background-color: #e2e6ea;
+    border: none;
+}

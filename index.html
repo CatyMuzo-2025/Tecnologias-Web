@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FACTURA</title>
+    <link rel="stylesheet" href="estilosprueba.css">
+</head>
+<body>
+    <h1>FACTURA</h1>
+
+    <!--Datos de la empresa y cliente-->
+        <table class="tabla empresa-cliente">
+            <tr>
+                <td>
+                    <h2>EMPRESA</h2>
+                    TEC-COMPUTER S.A.<br>
+                    Dirección: Calle 123<br>
+                    RUC: 1728349501001<br>
+                    Tel: 0999999999<br>
+                    email: tec_computer@.com.ec
+                </td>
+                <td>
+                    <h2>DATOS CLIENTE</h2>
+                    Nombre: Caterine Muzo <br>
+                    Cédula/RUC: 1720199437 <br>
+                    Dirección: Calle 1234 <br>
+                    Tel: 0998726393 <br>
+                    email: caty@gmail.com
+                </td>
+            </tr>
+        </table>
+
+        <!--Listado de productos-->
+        <table class="tabla productos">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descripción</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Mouse M15</td>
+                    <td>2</td>
+                    <td>$10.00</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Teclado T12</td>
+                    <td>1</td>
+                    <td>$15.00</td>
+                    <td>$15.00</td>
+                </tr>
+                <tr class="total">
+                    <td colspan="4" style="text-align: right;">Total:</td>
+                    <td>$35.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Información adicional-->
+        <table class="tabla info-adicional">
+            <tr>
+                <h3>Forma de pago: </h3>
+                
+                    <tr><td>Efectivo</td></tr>
+                    <tr><td>Trasferencia</td></tr>
+                    <tr><td>Tarjeta</td></tr>  
+            
+            </tr>
+        </table>
+        <h3>Observaciones: </h3> 
+        <p>Salida la mercadería no se aceptan cambios ni devoluciones. <br>
+            El cliente tiene 48 horas para la revisión y reporte de cualquier fallo. <br>
+           </p>
+                <!-- Datos de pie de página -->
+        <tfoot>
+        <table class="tabla pie">
+            <tr>
+                <td>
+                    Gracias por su compra.<br>
+                    www.tec_computer.com.ec
+                </td>
+            </tr>
+        </table>
+       </tfoot>   
+</body>
+</html>
